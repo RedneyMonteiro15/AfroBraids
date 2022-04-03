@@ -1,15 +1,63 @@
-.card{
+.header{
+    background-color: black;
+    color: white;
+}
+.navbar-brand{
+    color: yellow;
+    font-size: 25pt;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover,
+.navbar-brand:hover{
+    color: yellow;
+}
+.btn-outline-success{
+    border: yellow solid 2px;
+    color: yellow;
+}
+.btn-outline-success:hover{
+    background-color: yellow;
+    border: black solid 2px;
+    color: black;
+}
+.fa-bars{
+    color: yellow;
+    font-size: 100px;
+}
+.sobre{
     margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 100px 50px 50px 100px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
 }
-.card h5{
+.sobre h2{
+    color: yellow;
     text-align: center;
 }
-.card a{
-    width: 100px;
+.sobre a{
     text-align: center;
+    background-color: yellow;
+    color: black;
+    border: black solid 2px;
+    font-weight: 600;
 }
-.card p{
+.sobre a:hover{
+    background-color: black;
+    color: yellow;
+    border: yellow solid 2px;
+}
+.sobre p{
     text-align: justify;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+footer p{
+    text-align: center;
 }
