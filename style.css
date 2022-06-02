@@ -61,3 +61,79 @@ footer{
 footer p{
     text-align: center;
 }
+
+#servicos{
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#servicos h2,
+#agendar h2,
+#contatos h2{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+#servicos .servicos{
+    display: flex;
+}
+
+#servicos .servicos div{
+    margin: 20px;
+}
+
+#servicos a{
+    background-color: yellow;
+    border: 2px solid black;
+    color: black;
+}
+
+#servicos a:hover{
+    background-color: black;
+    border: 2px solid yellow;
+    color: yellow;
+}
+
+#agendar{
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#agendar .agendar{
+    margin-top: 30px;
+}
+
+#agendar .agendar input[type="button"]{
+    background-color: yellow;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+#contatos{
+    width: 1200px;
+    margin: auto;
+}
+
+#contatos .contatos{
+    display: flex;
+}
+
+#contatos .contatos form{
+    width: 500px;
+    margin: auto;
+}
+
+#contatos .contatos form legend{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#contatos .contatos iframe{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
