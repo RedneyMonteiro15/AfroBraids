@@ -137,3 +137,13 @@ footer p{
 
 }
 
+footer img{
+    width: 150px;
+    border-radius: 30%;
+}
+
+footer a{
+    text-align: right;
+    color: #fff;
+}
+
